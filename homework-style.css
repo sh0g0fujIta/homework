@@ -1,0 +1,103 @@
+/* ---------------------------
+　スタイル
+---------------------------- */
+/* ボディ */
+body {
+    margin: 0 auto 0 auto;
+}
+
+/* ---------------------------
+　スタイル
+---------------------------- */
+/* ヘッダー */
+header {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+}
+
+h2 {
+    color: black;
+    margin: 0 0 0 50px; 
+}
+
+.header-menu{
+    display: inline;
+    margin: 0 20px 0 20px;
+    font-size: 15px;
+    color: #fff
+}
+
+.header-menu > a {
+    text-decoration: none;
+}
+
+.header-menu > a:link {
+    color: gray;
+}
+
+.header-menu > a:visited {
+    color: gray;
+}
+
+.header-menu > a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.header-menu > a:active {
+    color: gray;
+}
+
+/* メイン */
+img {
+    width: 600px;
+    height: auto;
+}
+
+.main-container {
+    text-align: center;
+}
+
+/* フッター */
+footer {
+    background-color: lightgray;
+    text-align: center;
+    padding: 30px 80px 30px 80px;
+}
+
+#footer-link {
+    padding-bottom: 20px;
+}
+
+.footer-menu {
+    display: inline;
+    margin: 30px;
+    color: gray;
+}
+
+.footer-menu {
+    text-decoration: none;
+}
+
+.footer-menu:link {
+    color: gray;
+}
+
+.footer-menu:visited {
+    color: gray;
+}
+
+.footer-menu:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.footer-menu:active {
+    color: gray;
+}
+
+#copylight {
+    display: block;
+    color: gray;
+}
